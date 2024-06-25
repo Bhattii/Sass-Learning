@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: red;
+  color: white;
+  padding: 20px 10px;
+}
+
+menu {
+  background-color: rgb(163, 54, 167);
+}
+
+menu ul {
+  display: flex;
+  gap: 20px;
+  color: white;
+}
+
+menu ul li {
+  list-style-type: none;
+  padding: 30px 10px;
+}
+
+menu ul li:hover {
+  background-color: red;
+}
+
+.container {
+  display: flex;
+}
+
+main {
+  padding: 30px 10px;
+}
+
+main h2 {
+  padding: 20px 0;
+}
+
+nav {
+  background-color: rgb(180, 168, 168);
+  padding: 100px;
+}
+
+nav ul li {
+  padding: 10px 0;
+  text-wrap: nowrap;
+}
+
+nav ul li:hover {
+  color: red;
+}
+
+footer {
+  background-color: red;
+  padding: 30px 10px;
+}
+
+footer a {
+  color: white;
+}/*# sourceMappingURL=main.css.map */
