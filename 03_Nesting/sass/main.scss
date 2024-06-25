@@ -1,0 +1,78 @@
+$main-color: red;
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: $main-color;
+     color: white;
+     padding: 20px 10px;
+}
+menu{
+    background-color: rgb(163, 54, 167);
+   
+}
+menu{
+ul{
+display: flex;
+gap: 20px;
+color: white;
+li{
+    list-style-type: none;
+    padding: 30px 10px;
+    &:hover{
+        background-color: $main-color;
+      
+    }
+}
+
+}
+
+} 
+.container{
+    display: flex;
+   
+}
+main{
+    padding: 30px 10px;
+    h2{
+        padding: 20px 0;
+    }
+    p{
+        &::selection{
+            background-color: $main-color;
+            color: white;
+        }
+    }
+}
+
+nav{
+    background-color: rgb(180, 168, 168);
+    padding: 100px;
+}
+nav{
+    ul{
+        li{
+            padding:10px 0 ;
+            text-wrap: nowrap;
+            &:hover{
+                color:$main-color;
+            }
+        }
+
+      
+    }
+}
+
+
+
+footer {
+    a{
+        color: white;
+       
+    }
+}
