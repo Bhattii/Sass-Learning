@@ -1,0 +1,40 @@
+@mixin bg-radius($value:5px){
+    -webkit-border-radius:$value;
+    -moz-border-radius:$value;
+    border-radius: $value;
+}
+@mixin box-shadow($top, $left, $bluer , $color){
+    -webkit-box-shadow: $top $left $bluer $color;
+    -moz-box-shadow: $top $left $bluer $color;
+    box-shadow: $top $left $bluer $color;
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font: 18px / 24px arial;
+}
+div{
+    margin: 0 0 15px 15px;
+}
+#first{
+    background-color: darkslateblue;
+    width: 150px;
+    height: 150px;
+    @include bg-radius(50px);
+    @include box-shadow(3px,3px ,0 ,black )
+}
+#second{
+    background-color: darkseagreen;
+    width: 400px;
+    padding: 15px;
+    @include bg-radius(10px);
+    @include box-shadow(-3px,-3px ,3px ,black )
+}
+#third{
+    background-color: hotpink;
+    width: 600px;
+    padding: 20px;
+    @include bg-radius(20px);
+}
