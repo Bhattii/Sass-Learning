@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    
+    main{
+        padding: 30px 10px;
+        h2{
+            padding: 20px 0;
+        }
+        p{
+            &::selection{
+                background-color: $main-color;
+                color: white;
+            }
+        }
+    }
+    aside{
+        background-color: rgb(163, 54, 167);
+    ul{
+    display: flex;
+    flex-direction: column;
+    text-wrap: nowrap;
+    width: 200px;
+    gap: 20px;
+    color: white;
+    text-align: center;
+    li{
+        list-style-type: none;
+        padding: 30px 10px;
+        &:hover{
+            background-color: $main-color;
+          
+               }
+        }
+      }
+    } 
+   
+}

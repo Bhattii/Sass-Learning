@@ -1,11 +1,5 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 header {
-  background-color: green;
+  background-color: red;
   color: white;
   padding: 20px 10px;
 }
@@ -24,7 +18,7 @@ nav ul li {
   text-wrap: nowrap;
 }
 nav ul li:hover {
-  color: green;
+  color: red;
 }
 
 .container {
@@ -37,11 +31,11 @@ nav ul li:hover {
   padding: 20px 0;
 }
 .container main p::-moz-selection {
-  background-color: green;
+  background-color: red;
   color: white;
 }
 .container main p::selection {
-  background-color: green;
+  background-color: red;
   color: white;
 }
 .container aside {
@@ -49,22 +43,32 @@ nav ul li:hover {
 }
 .container aside ul {
   display: flex;
+  flex-direction: column;
+  text-wrap: nowrap;
+  width: 200px;
   gap: 20px;
   color: white;
+  text-align: center;
 }
 .container aside ul li {
   list-style-type: none;
   padding: 30px 10px;
 }
 .container aside ul li:hover {
-  background-color: green;
+  background-color: red;
 }
 
 footer {
-  background-color: green;
+  background-color: red;
   padding: 30px;
   text-align: center;
 }
 footer a {
   color: white;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }/*# sourceMappingURL=main.css.map */

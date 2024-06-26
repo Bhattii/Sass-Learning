@@ -1,0 +1,18 @@
+nav{
+    background-color: rgb(180, 168, 168);
+    padding: 10px;
+    ul{
+        display: flex;
+        gap: 50px;
+        li{
+            list-style-type: none;
+            padding:10px 0 ;
+            text-wrap: nowrap;
+            &:hover{
+                color:$main-color;
+            }
+        }
+
+      
+    }
+}
