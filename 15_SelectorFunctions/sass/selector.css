@@ -1,0 +1,23 @@
+ul li {
+  width: 10px;
+}
+
+.abc p, .xyz p {
+  width: 10px;
+}
+
+.abc_p {
+  width: 10px;
+}
+
+a.active {
+  width: 10px;
+}
+
+a_copy {
+  width: 10px;
+}
+
+a.xyz {
+  width: 10px;
+}/*# sourceMappingURL=selector.css.map */
