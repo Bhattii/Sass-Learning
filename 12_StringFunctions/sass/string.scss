@@ -1,0 +1,27 @@
+.test{
+    font-family: quote(arial);
+}
+.test{
+    font-family: unquote("arial");
+}
+.test{
+    font-family: to-upper-case(arial);
+}
+.test{
+    font-family: to-lower-case(ARIAL);
+}
+.test{
+    font-family: str-length(ARIAL);
+}
+.test{
+    font-family: str-index("font arial", "arial");
+}
+.test{
+    font-family: str-insert("font arial", "mono, ",6);
+}
+.test{
+    font-family: str-slice("font arial",6);
+}
+.test{
+    font-family: unique-id();
+}
