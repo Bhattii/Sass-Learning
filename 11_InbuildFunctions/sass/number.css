@@ -1,0 +1,39 @@
+.test {
+  margin: 10px;
+}
+
+.test {
+  margin: 5;
+}
+
+.text {
+  margin: 4;
+}
+
+.text {
+  margin: 4;
+}
+
+.text {
+  margin: 5;
+}
+
+.text {
+  margin: 50%;
+}
+
+.text {
+  margin: true;
+}
+
+.test {
+  margin: 17;
+}
+
+.test {
+  margin: "px*em";
+}
+
+.test {
+  margin: false;
+}/*# sourceMappingURL=number.css.map */

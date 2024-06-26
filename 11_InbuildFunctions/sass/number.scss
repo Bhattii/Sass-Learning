@@ -1,0 +1,31 @@
+.test{
+    margin: abs(-10px);
+}
+
+.test{
+    margin: ceil(4.2);
+}
+.text{
+    margin: floor(4.2);
+}
+.text{
+    margin: round(4.2);
+}
+.text{
+    margin: max(4,5);
+}
+.text{
+    margin: percentage(50/100);
+}
+.text{
+    margin: comparable(1px,2px);
+}
+.test{
+    margin: random(100);
+}
+.test{
+    margin: unit(100px* 20em);
+}
+.test{
+    margin: unitless(100px* 20em);
+}
