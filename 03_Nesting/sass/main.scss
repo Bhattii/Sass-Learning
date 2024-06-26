@@ -68,11 +68,10 @@ nav{
     }
 }
 
-
-
-footer {
+footer{
+background-color: $main-color;
+    padding: 30px 10px;
     a{
         color: white;
-       
     }
 }

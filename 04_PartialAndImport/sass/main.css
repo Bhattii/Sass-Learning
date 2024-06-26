@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: green;
+  color: white;
+  padding: 20px 10px;
+}
+
+nav {
+  background-color: rgb(180, 168, 168);
+  padding: 10px;
+}
+nav ul {
+  display: flex;
+  gap: 50px;
+}
+nav ul li {
+  list-style-type: none;
+  padding: 10px 0;
+  text-wrap: nowrap;
+}
+nav ul li:hover {
+  color: green;
+}
+
+.container {
+  display: flex;
+}
+.container main {
+  padding: 30px 10px;
+}
+.container main h2 {
+  padding: 20px 0;
+}
+.container main p::-moz-selection {
+  background-color: green;
+  color: white;
+}
+.container main p::selection {
+  background-color: green;
+  color: white;
+}
+.container aside {
+  background-color: rgb(163, 54, 167);
+}
+.container aside ul {
+  display: flex;
+  gap: 20px;
+  color: white;
+}
+.container aside ul li {
+  list-style-type: none;
+  padding: 30px 10px;
+}
+.container aside ul li:hover {
+  background-color: green;
+}
+
+footer {
+  background-color: green;
+  padding: 30px;
+  text-align: center;
+}
+footer a {
+  color: white;
+}/*# sourceMappingURL=main.css.map */

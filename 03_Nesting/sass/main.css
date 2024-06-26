@@ -59,6 +59,10 @@ nav ul li:hover {
   color: red;
 }
 
+footer {
+  background-color: red;
+  padding: 30px 10px;
+}
 footer a {
   color: white;
 }/*# sourceMappingURL=main.css.map */
