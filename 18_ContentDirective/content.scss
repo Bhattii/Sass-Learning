@@ -1,0 +1,23 @@
+@mixin bd-radius($value){
+    -webkit-border-radius:$value;
+    -moz-border-radius:$value;
+    border-radius:$value;
+    @content;
+}
+.abc{
+    @include bd-radius(5px){
+        border-style: dashed;
+    }
+}
+
+@mixin test{
+#menu{
+    @content;
+}
+}
+
+@include test{
+    .block{
+        color: green;
+    }
+}
