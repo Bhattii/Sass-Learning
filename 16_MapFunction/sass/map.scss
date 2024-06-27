@@ -1,0 +1,26 @@
+$font-weight:("regular":400,"medium":500, "bold":700);
+$light-weight:("lightest":100,"light":200);
+$merge:map-merge($font-weight, $light-weight); 
+.test{
+    font-weight: map-get($font-weight, "medium");
+}
+.test{
+    font-weight: map-get($font-weight, "bold");
+}
+.test{
+    font-weight: map-get($font-weight, "bolder");
+}
+
+// map_keys
+.test{
+    font-weight: map-keys($font-weight);
+}
+// map_values
+.test{
+    font-weight: map-values($font-weight);
+}
+// map_merge
+
+.test{
+   font-weight: map-merge($font-weight, $light-weight);
+}
