@@ -1,0 +1,32 @@
+$num: 10px;
+$char: "Arial";
+$list: "10px 20px 30px";
+$map: ("regular":200, "medium":300);
+
+
+// variable exists
+.text{
+    padding: variable-exists(num);
+}
+.text{
+    padding: variable-exists(listing);
+}
+
+// Global variable exists
+.text{
+   
+    padding: global-variable-exists(num);
+}
+
+// mixin exists
+@mixin br{
+    border-radius: 5px;;
+}
+.test{
+    padding: mixin-exists(br);
+}
+
+// inspect 
+.test{
+    padding: inspect($num);
+}
