@@ -12,4 +12,20 @@
 
 .test {
   font-weight: 400, 500, 700;
+}
+
+.test {
+  font-weight: "regular", "medium", "bold", "lightest", "light";
+}
+
+.test {
+  font-weight: "medium", "bold";
+}
+
+.test {
+  font-weight: true;
+}
+
+.test {
+  font-weight: "medium" 500;
 }/*# sourceMappingURL=map.css.map */

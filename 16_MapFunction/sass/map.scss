@@ -1,6 +1,5 @@
 $font-weight:("regular":400,"medium":500, "bold":700);
-$light-weight:("lightest":100,"light":200);
-$merge:map-merge($font-weight, $light-weight); 
+
 .test{
     font-weight: map-get($font-weight, "medium");
 }
@@ -21,6 +20,26 @@ $merge:map-merge($font-weight, $light-weight);
 }
 // map_merge
 
+$light-weight:("lightest":100,"light":200);
+$merge:map-merge($font-weight, $light-weight); 
 .test{
-   font-weight: map-merge($font-weight, $light-weight);
+   font-weight:map-keys($merge);
+}
+
+
+// map_remove 
+$mr:map-remove($font-weight, "regular" );
+.test{
+    font-weight: map-keys($mr);
+}
+
+// map_has_key
+.test{
+    font-weight: map-has-key($font-weight, "regular");
+}
+
+// :nth-child()
+
+.test{
+    font-weight: nth($font-weight,2 );
 }
