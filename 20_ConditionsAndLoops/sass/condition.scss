@@ -1,0 +1,8 @@
+$test: 3;
+p{
+    @if $test<5{
+        color:blue;
+    }
+}
+
+
